@@ -1,5 +1,5 @@
 # Advanced
-Welcome to Maptime @ Mapbox! Today you’re going to build… something! We'll be using (iNaturalilst)[https://www.inaturalist.org/projects/city-nature-challenge-2018-san-francisco-bay-area ] data of species spottings around the Bay Area. We'll help you get set up using Mapbox, but the rest is up to you!
+Welcome to Maptime @ Mapbox! Today you’re going to build… something! We'll be using iNaturalilst data of species spottings around the Bay Area. We'll help you get set up using Mapbox, but the rest is up to you!
 
 ## Objectives. You’ll learn how to…
 - Upload data to Mapbox
@@ -10,7 +10,7 @@ Welcome to Maptime @ Mapbox! Today you’re going to build… something! We'll b
 - A Mapbox Account, sign up [here](https://www.mapbox.com/signup/)
 - A text editor of your choice, we recommend Sublime or Atom
 - (iNaturalist dataset](https://github.com/mzdraper/maptime-mapbox-parks/blob/master/Advanced/iNaturalist.geojson)
-  - Or you can clone this whole repo: https://github.com/mzdraper/maptime-mapbox-parks
+  * Or you can clone this whole repo: https://github.com/mzdraper/maptime-mapbox-parks
 
 ## Step one: create an HTML file
 In your text editor, make a new HTML file called `index.html`. Create a new HTML file in your text editor in order to initialize a Mapbox GL JS map.
@@ -69,15 +69,16 @@ In your text editor, make a new HTML file called `index.html`. Create a new HTML
 Now that you have your web map and data ready, what do you wanna do with it? We’ve constructed a filtering example to help get you started, but we highly recommend going through out [examples](https://www.mapbox.com/mapbox-gl-js/example/simple-map/) page to see what else is possible. Let us know if you get stuck, we’re happy to help 🙂 Check out the Challenges for some inspiration to keep going!
 
 ### Challenges
- - Where are these `common_name` plants?
-  ⋅⋅* Dandelions
-  ⋅⋅* Kale
-  ⋅⋅* Umbrella papyrus
-  ⋅⋅* Lemon
-  ⋅⋅* Western honey bee
-  ⋅⋅* Annual yellow sweetclover
-  ⋅⋅* Blue-gray gnatcatcher
-  ⋅⋅* Big berry manzanita
+
 - Can you create a web app that filters the spottings whether you typed in the common OR scientific name?
 - Can you make a heat map of this data?
-- Can you find out which spotting is closest to your location?
+- Can you find out which spotting is closest to your location? 
+- Where are these `common_name` plants?
+  * Dandelions
+  * Kale
+  * Umbrella papyrus
+  * Lemon
+  * Western honey bee
+  * Annual yellow sweetclover
+  * Blue-gray gnatcatcher
+  * Big berry manzanita
