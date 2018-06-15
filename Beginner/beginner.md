@@ -7,8 +7,8 @@ Welcome to Maptime @ Mapbox! Today we’re going to build a map of parks around 
 - Put markers on a map
 
 ## What you’ll need
-- A Mapbox Account, sign up here: [mapbox.com/sign-up](https://www.mapbox.com/studio/signup/)
-- This SF Parks dataset, download here:
+- A Mapbox Account, sign up [here](https://www.mapbox.com/studio/signup/)
+- This [SF Parks dataset](https://github.com/mzdraper/maptime-mapbox-parks/blob/master/Beginner/sf-parks.geojson)
 
 ## Step one: dealing with data
 

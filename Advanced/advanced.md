@@ -1,5 +1,5 @@
 # Advanced
-Welcome to Maptime @ Mapbox! Today you’re going to build… something! We'll be using iNaturalilst data of species spottings around the Bay Area. We'll help you get set up using Mapbox, but the rest is up to you!
+Welcome to Maptime @ Mapbox! Today you’re going to build… something! We'll be using (iNaturalilst)[https://www.inaturalist.org/projects/city-nature-challenge-2018-san-francisco-bay-area ] data of species spottings around the Bay Area. We'll help you get set up using Mapbox, but the rest is up to you!
 
 ## Objectives. You’ll learn how to…
 - Upload data to Mapbox
@@ -7,10 +7,10 @@ Welcome to Maptime @ Mapbox! Today you’re going to build… something! We'll b
 - Use GL JS to build a web app
 
 ## What you’ll need
-- A Mapbox Account, sign up here: [mapbox.com/sign-up](mapbox.com/sign-up)
+- A Mapbox Account, sign up [here](https://www.mapbox.com/signup/)
 - A text editor of your choice, we recommend Sublime or Atom
-- iNaturalist dataset, download here:
-  - Or you can clone this whole repo:
+- (iNaturalist dataset](https://github.com/mzdraper/maptime-mapbox-parks/blob/master/Advanced/iNaturalist.geojson)
+  - Or you can clone this whole repo: https://github.com/mzdraper/maptime-mapbox-parks
 
 ## Step one: create an HTML file
 In your text editor, make a new HTML file called `index.html`. Create a new HTML file in your text editor in order to initialize a Mapbox GL JS map.

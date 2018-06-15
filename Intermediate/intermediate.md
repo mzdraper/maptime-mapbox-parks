@@ -8,9 +8,9 @@ Welcome to Maptime @ Mapbox! Today we’re going to build a map of parks around 
 - Add interactivity to your markers!
 
 ## What you’ll need
-- A Mapbox Account, sign up here: [mapbox.com/sign-up](mapbox.com/sign-up)
+- A Mapbox Account, sign up [here](https://www.mapbox.com/studio/signup/)
 - A text editor of your choice, we recommend Sublime or Atom
-- This SF Parks dataset, download here: 
+- This [SF Parks dataset](https://github.com/mzdraper/maptime-mapbox-parks/blob/master/Intermediate/sf-parks.geojson)
 
 ## Step one: dealing with data
 
