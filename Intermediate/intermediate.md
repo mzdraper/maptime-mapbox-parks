@@ -112,7 +112,7 @@ After you have successfully displayed your map, you will need to add a little mo
 ### Add more code
 1. Copy and paste the code below into your HTML file after the code that initializes your map, but before the `</script>` tag.
   - Replace `layer-name-here` with the name of your layer as seen in the style editor. This is likely `sf-parks` if you have been following the earlier tutorials in this series.
-  - Make sure that the properties match the name of the properties you would like to display in your popups. In this example, you will display the `title` and `description` properties.
+  - Make sure that the properties match the name of the properties you would like to display in your popups. In this example, you will display the `name` property.
 1. Open in your browser and refresh.
 2. You should be able to click on the markers and see titles and descriptions displayed in popups.
 
