@@ -1,5 +1,5 @@
 # Intermediate
-Welcome to Maptime @ Mapbox! Today we’re going to build a map of parks around San Francisco. The intermediate-level exercise requires writing code. Whether you’re comfortable with code or feel like you’ve always wanted to learn, try it out! We’re here to help 🙂 
+Welcome to Maptime @ Mapbox! Today we’re going to build a map of parks around San Francisco. The intermediate-level exercise requires writing code. Whether you’re comfortable with code or feel like you’ve always wanted to learn, try it out! We’re here to help 🙂
 
 ## Objectives. You’ll learn how to…
 - Create a dataset
@@ -81,7 +81,7 @@ In your text editor, make a new HTML file called `index.html`. Create a new HTML
             margin: 0;
             padding: 0;
           }
-    
+
           #map {
             position: absolute;
             top: 0;
@@ -121,13 +121,13 @@ After you have successfully displayed your map, you will need to add a little mo
       var features = map.queryRenderedFeatures(e.point, {
         layers: ['layer-name-here'] // replace this with the name of the layer
       });
-    
+
       if (!features.length) {
         return;
       }
-    
+
       var feature = features[0];
-    
+
       var popup = new mapboxgl.Popup({ offset: [0, -15] })
         .setLngLat(feature.geometry.coordinates)
         .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>')
