@@ -71,6 +71,7 @@ Now that you have your web map and data ready, what do you wanna do with it? Weâ
 ### Challenges
 
 - Can you create a web app that filters the spottings whether you typed in the common OR scientific name?
+- There are some data points out of place ðŸ¤” Can you put them in the right place?
 - Can you make a heat map of this data?
 - Can you find out which spotting is closest to your location? 
 - Where are these `common_name` plants?
