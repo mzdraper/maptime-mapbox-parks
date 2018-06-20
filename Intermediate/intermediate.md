@@ -26,11 +26,10 @@ Uploading your data to Mapbox Studio as a dataset lets you store an editable ver
 7. The dataset editor will automatically open.
 
 ### How to draw a new feature
-1. Click inside the Search places field and type `Garfield Park Chicago`.
+1. Click inside the Search places field and type the name of an SF park.
 2. Use the point draw tool to create a new point on the map.
 3. Click on the new feature and use the properties list on the left hand side to:
-  - Add the field name `title` and give it the value `Garfield Park`.
-  - Add the field name `description` and give it the value `Home of the Garfield Park Conservatory`.
+  - Add the field name `name` and give it the value of an SF park name.
 
 ### How to Export as a Tileset
 1. Click the **Save** button in the upper right to save your changes.
@@ -43,7 +42,7 @@ On your Styles page in Mapbox Studio, click the **Create** button and choose a s
 
 ### How to Create a New Layer
 1. When the style editor opens, click **+Add layer** in the upper left.
-2. Next to **Source**, click on the box and find your chicago-parks tileset. Click the name of the tileset to add it as the source for the layer.
+2. Next to **Source**, click on the box and find your sf-parks tileset. Click the name of the tileset to add it as the source for the layer.
 
 ![screenshot illustrating how to add a new layer in Mapbox Studio](https://www.mapbox.com/help/img/studio/point-tutorial-add-layer.png)
 
@@ -112,7 +111,7 @@ After you have successfully displayed your map, you will need to add a little mo
 
 ### Add more code
 1. Copy and paste the code below into your HTML file after the code that initializes your map, but before the `</script>` tag.
-  - Replace `layer-name-here` with the name of your layer as seen in the style editor. This is likely `chicago-parks` if you have been following the earlier tutorials in this series.
+  - Replace `layer-name-here` with the name of your layer as seen in the style editor. This is likely `sf-parks` if you have been following the earlier tutorials in this series.
   - Make sure that the properties match the name of the properties you would like to display in your popups. In this example, you will display the `title` and `description` properties.
 1. Open in your browser and refresh.
 2. You should be able to click on the markers and see titles and descriptions displayed in popups.

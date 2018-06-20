@@ -27,11 +27,10 @@ Uploading your data to Mapbox Studio as a dataset lets you store an editable ver
 7. The dataset editor will automatically open.
 
 ### How to draw a new feature
-1. Click inside the Search places field and type `Garfield Park Chicago`.
+1. Click inside the Search places field and type in a San Francisco park.
 2. Use the point draw tool to create a new point on the map.
 3. Click on the new feature and use the properties list on the left hand side to:
-  - Add the field name `title` and give it the value `Garfield Park`.
-  - Add the field name `description` and give it the value `Home of the Garfield Park Conservatory`.
+  - Add the field name `title` and give it the value of the park's name.
 
 Web maps are made up of map tiles. To add your data to a web map, it needs to be cut up into tiles so the data can be displayed at various zoom levels. In Mapbox maps, the collection of tiles your data is cut up into is called a tileset.
 
@@ -46,7 +45,7 @@ On your Styles page in Mapbox Studio, click the **Create** button and choose a s
 
 ### How to Create a New Layer
 1. When the style editor opens, click **+Add layer** in the upper left.
-2. Next to **Source**, click on the box and find your chicago-parks tileset. Click the name of the tileset to add it as the source for the layer.
+2. Next to **Source**, click on the box and find your sf-parks tileset. Click the name of the tileset to add it as the source for the layer.
 
 ![screenshot illustrating how to add a new layer in Mapbox Studio](https://www.mapbox.com/help/img/studio/point-tutorial-add-layer.png)
 
@@ -60,7 +59,7 @@ On your Styles page in Mapbox Studio, click the **Create** button and choose a s
 
 In the Mapbox Studio style editor, you can specify the style properties of each layer. This includes the layers in the Mapbox default styles and any layers you’ve added with custom data. For this example, you will style a symbol layer. You can style symbol layers with both text and icons.
 
-1. Click on the chicago-parks layer you created in the layer list on the left side of the style editor.
+1. Click on the sf-parks layer you created in the layer list on the left side of the style editor.
 2. When the style panel opens, click the **Style** tab if you’re not already there.
 3. Select the Icon tab and click on **Manage icons** in your spritesheet.
 4. This opens the Manage style images option in the debug panel. 
